@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="it" class="dark scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Termini di Servizio & Privacy Policy | SixM Official Bot</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        mono: ['JetBrains Mono', 'monospace'],
+                    },
+                    colors: {
+                        discord: {
+                            blurple: '#5865F2',
+                            dark: '#0B0E14',
+                            card: '#131722',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-discord-dark text-slate-200 font-sans antialiased selection:bg-discord-blurple selection:text-white min-h-screen flex flex-col">
+
+    <!-- Navbar -->
+    <header class="sticky top-0 z-40 backdrop-blur-xl bg-discord-dark/85 border-b border-slate-800">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <div class="w-9 h-9 rounded-xl bg-gradient-to-br from-discord-blurple to-cyan-500 flex items-center justify-center text-white shadow-lg shadow-discord-blurple/30">
+                    <i class="fa-brands fa-discord text-lg"></i>
+                </div>
+                <div>
+                    <span class="font-bold text-white block leading-none">SixM Official Bot</span>
+                    <span class="font-mono text-[11px] text-cyan-400">Documentazione Legale</span>
+                </div>
+            </div>
+            <nav class="flex items-center gap-4 text-xs sm:text-sm font-medium">
+                <a href="#termini" class="text-slate-300 hover:text-cyan-400 transition-colors">Termini di Servizio</a>
+                <a href="#privacy" class="text-slate-300 hover:text-cyan-400 transition-colors">Privacy Policy</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main -->
+    <main class="flex-1 max-w-4xl mx-auto px-4 sm:px-6 py-12 space-y-12">
+
+        <!-- Hero -->
+        <div class="text-center space-y-3">
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-discord-blurple/15 border border-discord-blurple/40 text-discord-blurple text-xs font-mono">
+                <i class="fa-solid fa-shield-halved"></i>
+                <span>ULTIMO AGGIORNAMENTO: NOVEMBRE 2026</span>
+            </div>
+            <h1 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
+                Termini di Servizio & Informativa sulla Privacy
+            </h1>
+            <p class="text-slate-400 text-sm sm:text-base max-w-2xl mx-auto">
+                Questo documento regola l'utilizzo del bot Discord ufficiale della community <strong class="text-white">SixM Roleplay</strong> e descrive in modo trasparente come vengono gestiti i dati degli utenti.
+            </p>
+        </div>
+
+        <!-- SEZIONE 1: TERMINI DI SERVIZIO -->
+        <section id="termini" class="p-6 sm:p-8 rounded-3xl bg-discord-card border border-slate-800 shadow-xl space-y-6">
+            <div class="flex items-center gap-3 border-b border-slate-800 pb-4">
+                <div class="w-10 h-10 rounded-xl bg-discord-blurple/15 text-discord-blurple flex items-center justify-center text-lg">
+                    <i class="fa-solid fa-file-contract"></i>
+                </div>
+                <div>
+                    <h2 class="text-xl sm:text-2xl font-bold text-white">1. Termini di Servizio (Terms of Service)</h2>
+                    <p class="text-xs text-slate-400">Condizioni d'uso per utenti e amministratori</p>
+                </div>
+            </div>
+
+            <div class="space-y-4 text-sm sm:text-base text-slate-300 leading-relaxed">
+                <div>
+                    <h3 class="text-white font-semibold mb-1">1.1 Accettazione dei Termini</h3>
+                    <p>Utilizzando il bot <strong>SixM Official Bot</strong> all'interno di un server Discord, l'utente accetta integralmente i presenti Termini di Servizio nonché i <a href="https://discord.com/terms" target="_blank" class="text-cyan-400 hover:underline">Termini di Servizio ufficiali di Discord</a> e le Linee Guida della Community.</p>
+                </div>
+
+                <div>
+                    <h3 class="text-white font-semibold mb-1">1.2 Descrizione del Servizio</h3>
+                    <p>SixM Official Bot fornisce strumenti di gestione per la community, tra cui: sistema di assistenza tramite ticket con categorie dedicate, messaggi di benvenuto e addio, tracciamento degli inviti, moderazione (timeout, kick, ban) e backup di sicurezza Anti-Nuke.</p>
+                </div>
+
+                <div>
+                    <h3 class="text-white font-semibold mb-1">1.3 Uso Consentito e Divieti</h3>
+                    <p>È severamente vietato abusare dei comandi del bot, inviare spam tramite il sistema ticket, tentare di sfruttare bug o compromettere il funzionamento del servizio. Lo Staff di SixM si riserva il diritto di limitare o revocare l'accesso al bot a qualsiasi utente che violi il regolamento del server.</p>
+                </div>
+
+                <div>
+                    <h3 class="text-white font-semibold mb-1">1.4 Disponibilità e Limitazione di Responsabilità</h3>
+                    <p>Il bot viene fornito "così com'è" (<em>as is</em>). Sebbene ci impegniamo a garantire la massima stabilità 24/7, non garantiamo l'assenza totale di interruzioni dovute a manutenzione, aggiornamenti o disservizi delle API di Discord.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEZIONE 2: PRIVACY POLICY -->
+        <section id="privacy" class="p-6 sm:p-8 rounded-3xl bg-discord-card border border-slate-800 shadow-xl space-y-6">
+            <div class="flex items-center gap-3 border-b border-slate-800 pb-4">
+                <div class="w-10 h-10 rounded-xl bg-cyan-500/15 text-cyan-400 flex items-center justify-center text-lg">
+                    <i class="fa-solid fa-user-shield"></i>
+                </div>
+                <div>
+                    <h2 class="text-xl sm:text-2xl font-bold text-white">2. Informativa sulla Privacy (Privacy Policy)</h2>
+                    <p class="text-xs text-slate-400">Trattamento e protezione dei dati su Discord</p>
+                </div>
+            </div>
+
+            <div class="space-y-4 text-sm sm:text-base text-slate-300 leading-relaxed">
+                <div>
+                    <h3 class="text-white font-semibold mb-1">2.1 Dati Raccolti</h3>
+                    <p>Per il corretto funzionamento delle proprie funzionalità, SixM Official Bot elabora esclusivamente i seguenti dati tecnici forniti da Discord:</p>
+                    <ul class="list-disc list-inside mt-2 space-y-1 text-slate-400">
+                        <li><strong class="text-slate-200">ID Utente, ID Server, ID Canali e ID Ruoli:</strong> necessari per gestire permessi, ticket, benvenuto e backup.</li>
+                        <li><strong class="text-slate-200">Contenuto dei Ticket e Transcript:</strong> i messaggi inviati esclusivamente all'interno dei canali ticket aperti dall'utente vengono salvati in formato testuale (<code>.txt</code>) nei log privati dello Staff a scopo di supporto e sicurezza.</li>
+                        <li><strong class="text-slate-200">Dati di Moderazione e Inviti:</strong> registrazione dei codici invito utilizzati all'ingresso nel server e dei provvedimenti disciplinari (motivazioni di timeout, kick o ban).</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-white font-semibold mb-1">2.2 Finalità e Condivisione dei Dati</h3>
+                    <p>I dati raccolti vengono utilizzati <strong>esclusivamente</strong> per l'erogazione dei servizi interni alla community SixM. <strong>Non vendiamo, non cediamo e non condividiamo</strong> alcun dato con terze parti o piattaforme esterne.</p>
+                </div>
+
+                <div>
+                    <h3 class="text-white font-semibold mb-1">2.3 Conservazione e Cancellazione</h3>
+                    <p>I dati relativi ai ticket attivi vengono rimossi automaticamente dal database alla chiusura del ticket stesso. Gli utenti possono richiedere in qualsiasi momento la cancellazione dei propri log o transcript aprendo un ticket di supporto presso lo Staff di SixM.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-800 py-6 px-4 text-center text-xs text-slate-500">
+        <p>© 2026 <strong class="text-slate-300">SixM Official Bot</strong> • Tutti i diritti riservati • Powered by <strong class="text-cyan-400">111braian111</strong></p>
+    </footer>
+
+</body>
+</html>
